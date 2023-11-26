@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #2196F3; /* Material UI blue */
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Movie Recommender styles */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#movie_name {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#submit_btn {
+    background-color: #2196F3; /* Material UI blue */
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#output_container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+    }
+}
